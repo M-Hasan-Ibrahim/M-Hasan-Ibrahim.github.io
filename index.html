@@ -33,7 +33,7 @@
         width: 100%;
       }
 
-      img {
+      .playerNbr {
         width: 250px;
         object-fit: cover;
         border-radius: 75px;
@@ -42,7 +42,12 @@
     </style>
   </head>
   <body>
-    <div class="background-image"></div>
+    <!-- <div class="background-image"></div> -->
+    <img
+      class="background-image"
+      src="tennis-images/tenniscourt.jpeg"
+      alt="tennis court"
+    />
 
     <h1 class="title">
       <big>Tennis Academy</big>
@@ -65,25 +70,37 @@
       <tr>
         <th>
           <a href="Prices/Prices1.html"
-            ><img src="tennis-images/tennis1guy.webp" alt="One Player"
+            ><img
+              class="playerNbr"
+              src="tennis-images/tennis1guy.webp"
+              alt="One Player"
           /></a>
         </th>
         <th><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></th>
         <th>
           <a href="Prices/Prices2.html"
-            ><img src="tennis-images/tennis2guys.jpg" alt="Two Player"
+            ><img
+              class="playerNbr"
+              src="tennis-images/tennis2guys.jpg"
+              alt="Two Player"
           /></a>
         </th>
         <th><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></th>
         <th>
           <a href="Prices/Price3.html"
-            ><img src="tennis-images/tennis3guys.jpg" alt="Three Player"
+            ><img
+              class="playerNbr"
+              src="tennis-images/tennis3guys.jpg"
+              alt="Three Player"
           /></a>
         </th>
         <th><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></th>
         <th>
           <a href="Prices/Price4.html"
-            ><img src="tennis-images/tennis4girl.jpg" alt="Four Player"
+            ><img
+              class="playerNbr"
+              src="tennis-images/tennis4girl.jpg"
+              alt="Four Player"
           /></a>
         </th>
       </tr>
@@ -115,12 +132,12 @@
       }
 
       .background-image {
-        background-image: url("tennis-images/tenniscourt.jpeg");
+        /* background-image: url("tennis-images/tenniscourt.jpeg"); */
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
         height: 100vh;
-        margin: 0 auto;
+        width: 1500px;
       }
     </style>
     <a href="#">Home</a>
