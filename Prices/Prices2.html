@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      DollarPrice = 29500;
+    </script>
+
+    <h2>Two Players</h2>
+    <table>
+      <tr>
+        <th>Sessions</th>
+        <th>Price $</th>
+        <th>Price LBP</th>
+        <th>Price per person</th>
+      </tr>
+
+      <tr>
+        <th>1</th>
+        <th>8</th>
+        <th>
+          <script>
+            document.write((8 * DollarPrice).toFixed(3));
+          </script>
+        </th>
+        <th>
+          <script>
+            document.write(((8 * DollarPrice) / 2).toFixed(3));
+          </script>
+        </th>
+      </tr>
+
+      <tr>
+        <th>8</th>
+        <th>60</th>
+        <th>
+          <script>
+            document.write((60 * DollarPrice).toFixed(3));
+          </script>
+        </th>
+        <th>
+          <script>
+            document.write(((60 * DollarPrice) / 2).toFixed(3));
+          </script>
+        </th>
+      </tr>
+
+      <tr>
+        <th>12</th>
+        <th>80</th>
+        <th>
+          <script>
+            document.write((80 * DollarPrice).toFixed(3));
+          </script>
+        </th>
+        <th>
+          <script>
+            document.write(((80 * DollarPrice) / 2).toFixed(3));
+          </script>
+        </th>
+      </tr>
+    </table>
+
+    <br />
+    <a href="../index.html">Home</a>
+  </body>
+</html>
