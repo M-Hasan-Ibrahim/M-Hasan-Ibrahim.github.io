@@ -7,14 +7,39 @@
     <meta name="description" content="tennis court" />
     <title>Tennis</title>
 
-    <link rel="stylesheet" href="/main.css" />
+    <style>
+      .title {
+        /* text-align: center; */
+        position: absolute;
+        top: 10%;
+        color: blue;
+        font-weight: bold;
+        width: 100%;
+      }
+      .name {
+        text-align: right;
+        position: absolute;
+        top: 90%;
+        color: black;
+        font-weight: bold;
+        width: 100%;
+      }
+      .content {
+        text-align: left;
+        position: absolute;
+        top: 60%;
+        color: blue;
+        font-weight: bold;
+        width: 100%;
+      }
 
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
-      crossorigin="anonymous"
-    />
+      .playerNbr {
+        width: 250px;
+        object-fit: cover;
+        border-radius: 75px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(0, 0, 0);
+      }
+    </style>
   </head>
   <body>
     <!-- <div class="background-image"></div> -->
@@ -99,15 +124,22 @@
       </tr>
     </table>
 
+    <br />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      .background-image {
+        /* background-image: url("tennis-images/tenniscourt.jpeg"); */
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        height: 100vh;
+        width: 1500px;
+      }
+    </style>
     <a href="#">Home</a>
-
-    <p>hi</p>
-
-    <!-- JavaScript Bundle with Popper -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-      crossorigin="anonymous"
-    ></script>
   </body>
 </html>
