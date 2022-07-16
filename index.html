@@ -4,64 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="tennis court" />
     <title>Tennis</title>
 
     <style>
-      .container {
-        display: grid;
-        height: 100vh;
-        grid-template-columns: 2fr 2fr 2fr 2fr;
-        grid-template-rows: 2fr 4.5fr 1fr 3fr;
-        grid-template-areas:
-          "nav main main main"
-          "sidebar main main main"
-          "footer footer footer footer"
-          "content1 content2 content3 content4";
-        grid-gap: 0.2rem;
-      }
-
-      nav {
-        /* background-color: aqua; */
-        grid-area: nav;
-      }
-      main {
-        /* background-color: bisque; */
-        grid-area: main;
-      }
-      #sidebar {
-        /* background-color: darkblue; */
-        grid-area: sidebar;
-      }
-      #content1 {
-        /* background-color: lawngreen; */
-        grid-area: content1;
-      }
-      #content2 {
-        /* background-color: hotpink; */
-        grid-area: content2;
-      }
-      #content3 {
-        /* background-color: khaki; */
-        grid-area: content3;
-      }
-      #content4 {
-        /* background-color: olive; */
-        grid-area: content4;
-      }
-      footer {
-        /* background-color: blueviolet; */
-        grid-area: footer;
-      }
-
-      .playerNbr {
-        width: 250px;
-        object-fit: cover;
-        border-radius: 75px;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(0, 0, 0);
-      }
-
-      /* .title {
-        text-align: center;
+      .title {
+        /* text-align: center; */
         position: absolute;
         top: 10%;
         color: blue;
@@ -75,76 +23,108 @@
         color: black;
         font-weight: bold;
         width: 100%;
-      } */
-
-      em {
+      }
+      .content {
+        text-align: left;
+        position: absolute;
+        top: 60%;
+        color: blue;
         font-weight: bold;
+        width: 100%;
+      }
+
+      .playerNbr {
+        width: 250px;
+        object-fit: cover;
+        border-radius: 75px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(0, 0, 0);
       }
     </style>
   </head>
   <body>
-    <div class="container">
-      <nav>
-        <h1 class="title">
-          <big>Tennis Academy</big>
-        </h1>
-        <br />
-        <h2 class="name">
-          <small><i>By Mohamad Ibrahim</i></small>
-        </h2>
-      </nav>
-      <main>
-        <img
-          class="background-image"
-          src="tennis-images/tenniscourt.jpeg"
-          alt="tennis court"
-        />
-      </main>
-      <div id="sidebar">
-        <h2 class="content">
-          <a href="#players">Prices </a><br />
-          <a href="https://wa.me/+96176928970?" target="_blank">Contact</a>
-        </h2>
-      </div>
+    <!-- <div class="background-image"></div> -->
+    <img
+      class="background-image"
+      src="tennis-images/tenniscourt.jpeg"
+      alt="tennis court"
+    />
 
-      <div id="content1">
-        <a href="Prices/Prices1.html"
-          ><img
-            class="playerNbr"
-            src="tennis-images/tennis1guy.webp"
-            alt="One Player"
-        /></a>
-      </div>
-      <div id="content2">
-        <a href="Prices/Prices2.html"
-          ><img
-            class="playerNbr"
-            src="tennis-images/tennis2guys.jpg"
-            alt="Two Player"
-        /></a>
-      </div>
-      <div id="content3">
-        <a href="Prices/Price3.html"
-          ><img
-            class="playerNbr"
-            src="tennis-images/tennis3guys.jpg"
-            alt="Three Player"
-        /></a>
-      </div>
-      <div id="content4">
-        <a href="Prices/Price4.html"
-          ><img
-            class="playerNbr"
-            src="tennis-images/tennis4girl.jpg"
-            alt="Four Player"
-        /></a>
-      </div>
+    <h1 class="title">
+      <big>Tennis Academy</big>
+    </h1>
+    <br />
+    <h2 class="name">
+      <small><i>By Mohamad Ibrahim</i></small>
+    </h2>
 
-      <footer>
-        <h1 id="players">Number of players that will take the same sessions</h1>
-      </footer>
-    </div>
+    <h2 class="content">
+      <a href="#players">Prices </a><br />
+      <a href="https://wa.me/+96176928970?" target="_blank">Contact</a>
+    </h2>
 
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <h1 id="players">Number of players that will take the same sessions</h1>
+    <table>
+      <!-- 8ayir dollar price bel prices-->
+      <tr>
+        <th>
+          <a href="Prices/Prices1.html"
+            ><img
+              class="playerNbr"
+              src="tennis-images/tennis1guy.webp"
+              alt="One Player"
+          /></a>
+        </th>
+        <th><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></th>
+        <th>
+          <a href="Prices/Prices2.html"
+            ><img
+              class="playerNbr"
+              src="tennis-images/tennis2guys.jpg"
+              alt="Two Player"
+          /></a>
+        </th>
+        <th><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></th>
+        <th>
+          <a href="Prices/Price3.html"
+            ><img
+              class="playerNbr"
+              src="tennis-images/tennis3guys.jpg"
+              alt="Three Player"
+          /></a>
+        </th>
+        <th><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></th>
+        <th>
+          <a href="Prices/Price4.html"
+            ><img
+              class="playerNbr"
+              src="tennis-images/tennis4girl.jpg"
+              alt="Four Player"
+          /></a>
+        </th>
+      </tr>
+
+      <tr>
+        <th>
+          <h3>One Player</h3>
+        </th>
+        <th><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></th>
+        <th>
+          <h3>Two Players</h3>
+        </th>
+        <th><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></th>
+        <th>
+          <h3>Three Players</h3>
+        </th>
+        <th><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></th>
+        <th>
+          <h3>Four Players</h3>
+        </th>
+      </tr>
+    </table>
+
+    <br />
     <style>
       * {
         margin: 0;
@@ -156,9 +136,10 @@
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        height: 400px;
-        width: 1000px;
+        height: 100vh;
+        width: 1500px;
       }
     </style>
+    <a href="#">Home</a>
   </body>
 </html>
